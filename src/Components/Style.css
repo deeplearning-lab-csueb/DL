@@ -1,0 +1,46 @@
+/* Layout */
+.brand_logo {
+    max-width: 15%;
+}
+.intro-image {
+    /* background-image: url("https://s40424.pcdn.co/in/wp-content/uploads/2022/07/machine-learning.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+   
+}
+
+.card-overlay {
+    /* background: rgba(0, 0, 0, 0.5); */
+    /* background: linear-gradient(#000000, #2d2d2d);
+    opacity: 50%; */
+    background-color: black;
+  }
+
+.top-bar{
+    background-color: #000;
+}
+
+/* Footer */
+
+.footer_one {
+background-color: #090909;
+padding-top: 3%;
+padding-bottom: 3%;
+}
+
+.footer_two {
+    background-color: black;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.uni_logo {
+    max-width: 12%;
+    padding: 3px;
+}
+
+.social_media_icon {
+    max-width: 7.5%;
+    padding: 5px;
+}

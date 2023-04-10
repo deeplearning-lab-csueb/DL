@@ -1,0 +1,20 @@
+[
+    {
+        "member_id": 1,
+        "member_name": "Akash Mhatre",
+        "photo": "h_photo",
+        "description": "Computer science"
+    },
+    {
+        "member_id": 2,
+        "member_name": "Mary Amon",
+        "photo": "h_photo",
+        "description": "Computer science"
+    }, {
+        "member_id": 3,
+        "member_name": "Apoorva Tummala",
+        "photo": "h_photo",
+        "description": "Computer science"
+    }
+]
+   
