@@ -4,8 +4,9 @@ import projects_info from '../../projects.json'
 
 const Projects = () => {
   return (
-    <div className='mb-5'>
+    <div className='mb-5' id="action2">
       <Container>
+        <br></br>
         <br></br>
         <h3 className='text-center mb-3'><b>PROJECTS</b></h3>
         <Row>

@@ -4,9 +4,9 @@ import '../Style.css'
 
 const Footer = () => {
   const env = process.env.PUBLIC_URL;
-  const logo = ["/facebook_icon.png", "/twitter_icon.png", "/linkedin_icon.png", "/instagram_icon.png"]
+  const logo = ["/facebook_icon.png", /*"/twitter_icon.png", */ "/linkedin_icon.png", /*"/instagram_icon.png"*/]
   return (
-    <div>
+    <div id="action5">
       <div className='footer_one'>
         <Row>
           <Col md={4}>

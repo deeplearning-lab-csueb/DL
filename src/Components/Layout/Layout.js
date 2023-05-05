@@ -5,6 +5,7 @@ import People from '../People/People'
 import Projects from '../Projects/Projects'
 import '../Style.css'
 import Topbar from '../Topbar/Topbar'
+import Resources from '../Resources/Resources'
 
 const Layout = () => {
   // const img = process.env.PUBLIC_URL + "/east-bay-sign.jpg";
@@ -22,7 +23,9 @@ const Layout = () => {
       <Intro />
       <Projects />
       <People />
+      <Resources />
       <Footer />
+      
     </div>
   )
 }

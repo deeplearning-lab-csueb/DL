@@ -5,9 +5,9 @@ import members_info from '../../members.json'
 const People = () => {
   const img = process.env.PUBLIC_URL + "/girl.png";
   return (
-    <div style={{ paddingTop: "3%", paddingBottom: "3%" }}>
+    <div id="action3" style={{ paddingTop: "3%", paddingBottom: "3%" }}>
       <Container>
-        <h3 className='text-center mb-3'><b>PEOPLE</b></h3>
+        <h3 className='text-center mb-3'><b>Our Team</b></h3>
         <Row>
           {members_info.map((member) => {
             return (

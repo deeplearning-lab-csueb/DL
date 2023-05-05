@@ -4,7 +4,7 @@ import './intro.css'
 const Intro = () => {
     const img = process.env.PUBLIC_URL + "/deep_learning.gif";
     return (
-        <div className='introduction'>
+        <div className='introduction' id="action1">
             <div className="card-overlay mt-5">
                 <div className='intro-image'
                     style={{
@@ -18,8 +18,8 @@ const Intro = () => {
                         <br />
                         <br />
                         <br />
-                        <h1 className='intro-header mt-5'>Deep Learning</h1>
-                        <h3 className='intro-text'>Hongmin Li</h3>
+                        <h1 className='intro-header mt-5'>Deep Learning Lab</h1>
+                        <h5 className='intro-text'>Department of Computer Science</h5>
                     </div>
                 </div>
             </div>
