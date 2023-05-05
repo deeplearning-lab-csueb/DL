@@ -8,7 +8,7 @@ const Projects = () => {
       <Container>
         <br></br>
         <br></br>
-        <h3 className='text-center mb-3'><b>PROJECTS</b></h3>
+        <h3 className='text-center mb-3'><b>Projects</b></h3>
         <Row>
           {projects_info.map((project) => {
             return (
