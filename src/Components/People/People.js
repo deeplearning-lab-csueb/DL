@@ -15,13 +15,13 @@ const People = () => {
                 <Card className='shadow rounded'>
                   <Card.Body>
                     <Row>
-                      <Col md={2}>
+                      {/* <Col md={2}>
                         <Card.Img  src={img} />
-                      </Col>
+                      </Col> */}
                       <Col>
-                        <h4>{member.member_name}</h4>
+                        <h4><a href={member.link}>{member.member_name}</a></h4>
                         <p className='text-muted'>{member.description}</p>
-                        <p className='' style={{fontSize: '0.95rem'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit, lacus nec convallis commodo, odio nibh pretium nulla, id molestie quam mauris in dui. Quisque sagittis suscipit sem, sed laoreet quam maximus in. Sed maximus, sapien at fringilla posuere, lectus justo feugiat tellus, ut ullamcorper tellus lorem quis augue. Vestibulum sit amet nisi euismod, ullamcorper mi vel, dictum dolor. Nam eu ex non ipsum lacinia viverra. Aliquam rutrum posuere enim, vel interdum neque congue vel. Sed euismod augue risus, quis mollis leo commodo vel.</p>
+                        {/* <p className='' style={{ fontSize: '0.95rem' }}><a href="https://www.csueastbay.edu/directory/profiles/cs/lihongmin.html">Profile</a></p> */}
                       </Col>
                     </Row>
                   </Card.Body>
