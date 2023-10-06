@@ -4,24 +4,24 @@ import projects_info from '../../projects.json'
 
 const Projects = () => {
   return (
-    <div className='mb-5' id="action2">
+    <div className='mb-3' id="action2">
       <Container>
         <br></br>
         <br></br>
-        <h3 className='text-center mb-3'><b>Projects</b></h3>
+        <h2 className=''><b className='garmond'>Projects</b></h2>
         <Row>
-          {projects_info.map((project) => {
-            return (
-              <Col md={12} key={project.project_id}>
-                <Card className='shadow-lg rounded mb-3'>
-                  <Card.Body>
-                    <h4 className='text-center mb-3'>{project.project_name}</h4>
-                    <div>{project.desc}</div>
-                  </Card.Body>
-                </Card>
-              </Col>
-            );
-          })}
+          {/* <Card className='shadow-lg rounded mb-3'>
+            <Card.Body> */}
+              {projects_info.map((project) => {
+                return (
+                  <Col md={12} key={project.project_id}>
+                    <h5 className='csueb_red  mt-4 mr-3'>{project.project_name}</h5>
+                    <div className=' '>{project.desc}</div>
+                  </Col>
+                );
+              })}
+            {/* </Card.Body>
+          </Card> */}
         </Row>
       </Container>
     </div>

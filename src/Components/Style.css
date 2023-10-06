@@ -2,12 +2,13 @@
 .brand_logo {
     max-width: 15%;
 }
+
 .intro-image {
     /* background-image: url("https://s40424.pcdn.co/in/wp-content/uploads/2022/07/machine-learning.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 90vh;
-   
+
 }
 
 .card-overlay {
@@ -15,18 +16,18 @@
     /* background: linear-gradient(#000000, #2d2d2d);
     opacity: 50%; */
     background-color: black;
-  }
+}
 
-.top-bar{
+.top-bar {
     background-color: #000;
 }
 
 /* Footer */
 
 .footer_one {
-background-color: #090909;
-padding-top: 3%;
-padding-bottom: 3%;
+    background-color: #e5e6e7;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .footer_two {
@@ -43,4 +44,13 @@ padding-bottom: 3%;
 .social_media_icon {
     max-width: 7.5%;
     padding: 5px;
+}
+
+.csueb_red {
+    color: #d50032;
+}
+
+.blur {
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
 }

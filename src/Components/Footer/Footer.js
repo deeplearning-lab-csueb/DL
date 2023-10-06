@@ -1,6 +1,7 @@
 import React from 'react'
 import { Row, Col } from 'react-bootstrap'
 import '../Style.css'
+import Resources from '../Resources/Resources'
 
 const Footer = () => {
   const env = process.env.PUBLIC_URL;
@@ -8,7 +9,7 @@ const Footer = () => {
   return (
     <div id="action5">
       <div className='footer_one'>
-        <Row>
+        {/* <Row>
           <Col md={4}>
             <div className='text-center'>
               <img className='uni_logo' role="button" alt='...' src={env + "/eb_logo.png"} />
@@ -23,12 +24,8 @@ const Footer = () => {
               })}
             </div>
           </Col>
-        </Row>
-      </div>
-      <div className='footer_two'>
-        <div className='text-center'>
-          <footer>&copy; Copyright 2023</footer>
-        </div>
+        </Row> */}
+        <Resources></Resources>
       </div>
     </div>
   )

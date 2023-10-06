@@ -23,7 +23,7 @@ const Layout = () => {
       <Intro />
       <Projects />
       <People />
-      <Resources />
+      {/* <Resources /> */}
       <Footer />
       
     </div>
