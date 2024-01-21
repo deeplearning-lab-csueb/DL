@@ -8,10 +8,15 @@ const Intro = () => {
         <div className='introduction' id="action1">
             {/* <div className="card-overlay mt-5"> */}
             <div className="mt-5">
-                {/* <div className='intro-image'
+                <div className='intro-image'
                     style={{
-                        backgroundImage: `url(${img})`
-                    }}> */}
+                        backgroundImage: `url(${img})`,
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center', 
+                        height: '50vh',
+                        // marginRight:'15%',
+                        // marginLeft:'15%',
+                    }}></div>
                 {/* <div className='card-img-overlay text-white text-center mt-5'> */}
                 <Container>
                     <div className='mt-5'>
@@ -28,7 +33,7 @@ const Intro = () => {
                         <h4 className=' garmond csueb_red'><b className='garmond'>Department of Computer Science</b></h4>
                     </div>
                 </Container>
-                {/* </div> */}
+                
             </div>
         </div>
     )

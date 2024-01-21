@@ -8,9 +8,23 @@
     },
     {
         "member_id": 2,
+        "member_name": "Dongping Guo",
+        "photo": "h_photo",
+        "description": "Undergraduate Student-Computer science",
+        "link": ""
+    },
+    {
+        "member_id": 3,
+        "member_name": "Arsh Parmar",
+        "photo": "h_photo",
+        "description": "Undergraduate Student-Computer science",
+        "link": ""
+    },
+    {
+        "member_id": 4,
         "member_name": "Ayush Sharma",
         "photo": "h_photo",
-        "description": "Student-Computer science",
+        "description": "Graduate Student-Computer science",
         "link": ""
     }
 ]
