@@ -9,6 +9,8 @@
         "project_id": "2",
         "project_name": "ASL Recognition",
         "photo": "cb_photo",
-        "desc": "We have trained a classification model to classify isolated American Sign Language (ASL) signs which is trained on labeled landmark data extracted using the MediaPipe Holistic Solution."
+        "desc": "We have developed a classification model that is trained to identify isolated American Sign Language (ASL) signs. This model has been trained using labeled landmark data extracted with the MediaPipe Holistic Solution. It is capable of classifying 250 distinct signs. The model is loaded into a browser through a React.js web application, and the prediction process occurs on the client side.",
+        "link":"https://deeplearning-lab-csueb.github.io/ASL-webapp/",
+        "tech_stack":"Tensorflow.js, MediaPipe Holistic solution, React.js, AWS S3"
     }
 ]
