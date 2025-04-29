@@ -47,6 +47,13 @@
         "photo": "h_photo",
         "description": "Graduate Student-Computer science",
         "link": ""
+    },
+    {
+        "member_id": 8,
+        "member_name": "Amit Patil",
+        "photo": "h_photo",
+        "description": "Graduate Student-Computer science",
+        "link": "https://www.linkedin.com/in/amitpatil010/"
     }
         
 ]
