@@ -19,5 +19,12 @@
         "photo": "h_photo",
         "description": "Student-Computer science",
         "link": ""
+    },
+    {
+        "member_id": 4,
+        "member_name": "Ayush Sharma",
+        "photo": "h_photo",
+        "description": "Graduate Student-Computer science",
+        "link": "https://www.linkedin.com/in/ayushsharmasde/"
     }
 ]

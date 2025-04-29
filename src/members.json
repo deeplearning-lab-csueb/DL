@@ -11,20 +11,42 @@
         "member_name": "Dongping Guo",
         "photo": "h_photo",
         "description": "Undergraduate Student-Computer science",
-        "link": ""
+        "link": "https://www.linkedin.com/in/dongpingguo/"
     },
     {
         "member_id": 3,
         "member_name": "Arsh Parmar",
         "photo": "h_photo",
         "description": "Undergraduate Student-Computer science",
-        "link": ""
+        "link": "https://www.linkedin.com/in/arshdeepsp/"
     },
     {
         "member_id": 4,
-        "member_name": "Ayush Sharma",
+        "member_name": "Jaishnoor Kaur",
+        "photo": "h_photo",
+        "description": "Undergraduate Student-Computer science",
+        "link": "https://www.linkedin.com/in/jaishnoor/"
+    },
+    {
+        "member_id": 5,
+        "member_name": "Tamir Shem Tov",
+        "photo": "h_photo",
+        "description": "Undergraduate Student-Computer science",
+        "link": ""
+    },
+    {
+        "member_id": 6,
+        "member_name": "Haoran Li",
+        "photo": "h_photo",
+        "description": "Graduate Student-Computer science",
+        "link": ""
+    },
+    {
+        "member_id": 7,
+        "member_name": "Pingping Wang",
         "photo": "h_photo",
         "description": "Graduate Student-Computer science",
         "link": ""
     }
+        
 ]
